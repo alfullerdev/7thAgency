@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+:root {
+    --primary-color:#000;
+
+}
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    color:#333;
+    line-height: 1.6;
+}
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+.text-center {
+    text-align: center;
+}
+
+h1, h2 {
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 10px 0;
+}
+
+p {
+    margin: 10px 0;
+}
+
+img {
+    width: 100%;
+}
+
+.navbar {
+    background-color: var(--primary-color);
+    color: #fff;
+    height: 70px;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar a {
+    color: #FFF;
+    padding: 10px;
+    margin: 0px;
+}
+
+.navbar a:hover {
+    border-bottom: 2px #fff solid;
+}
+
+.navbar .flex {
+    justify-content: space-between;
+}
+
+.showcase {
+    height: 550px;
+    background-color:#aaa367; 
+    color:#FFF;
+    position: relative;
+    padding-top:20px;
+}
+
+.showcase h1 {
+    font-size: 40px;
+}
+
+.showcase p {
+    margin: 20px 0;
+}
+
+.showcase .grid {
+    grid-template-columns: 55% 45%;
+    gap:30px;
+    overflow: visible;
+}
+
+.stats-heading{
+    max-width: 500px;
+    margin: auto;
+}
+
+.stats .grid h3 {
+    font-size: 35px;
+}
+.stats .grid p {
+    font-size: 20px;
+    font-weight: bold;
+}
+p.about-us {
+    text-align: justify;
+    font-size: 18px;
+}
+.logo{
+    width: 400px;
+}
+
+
+.header-text {
+    margin-top: 150px;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+.footer{
+    bottom:0;
+    width:100%;
+    margin-top: 200px;
+}
