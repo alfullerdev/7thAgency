@@ -13,10 +13,6 @@
     height: 100%;
 }
 
-footer {
-
-}
-
 .stats::after{
     content: '';
     height: 400px;
@@ -220,7 +216,6 @@ footer {
     }
 
     .navbar nav {
-        display: none;
     }
     
     .navbar .flex {
