@@ -12,7 +12,7 @@ let footer = () => {
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="talent.html">Talent</a></li>
-            <li><a href="services.html">Services</a></li>xwx
+            <li><a href="services.html">Services</a></li>
         </ul>
     </nav>
     <nav>

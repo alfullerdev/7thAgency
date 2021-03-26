@@ -176,14 +176,13 @@
     margin: 3rem;
 }
 .p-5 {
-    margin: 4rem;
+    margin: 1rem;
 }
-
 
 /* footer */
 .bg-dark,
 .btn-dark {
-    background-color: #aaa367;
+    background-color: #4b2c03;
     color: #fff;;
 }
 
@@ -204,6 +203,10 @@
 
     }
 
+    .logo{
+        width:170%!important;
+    }
+
 
 
     
@@ -213,11 +216,7 @@
 @media(max-width: 500px) {
     .navbar {
         height:110px;
-    }
-
-    .navbar nav {
-    }
-    
+    }    
     .navbar .flex {
         flex-direction: column;
     }
