@@ -15,7 +15,7 @@
 
 .stats::after{
     content: '';
-    height: 400px;
+    height: 0px;
     position: absolute;
     right: 0;
     left: 0;
@@ -207,10 +207,21 @@
         width:170%!important;
     }
 
+    nav ul li a {
+        font-size: 12px;
+        
+    }
+
+    nav {
+        padding-bottom: 50px;
+    }
+
 
 
     
 }
+
+
 
 /* Mobile */
 @media(max-width: 500px) {
