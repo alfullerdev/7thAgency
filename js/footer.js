@@ -4,7 +4,7 @@ let footer = () => {
 
     let divFooter = `<div class="container grid grid-4">
     <div>
-        <h1>7thagency</h1>
+        <h1>7th Agency</h1>
         <p>Copyright &copy ${year.getFullYear()}</p>
     </div>
     <nav>
