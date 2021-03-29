@@ -104,7 +104,8 @@ img {
 }
 p.about-us {
     text-align: justify;
-    font-size: 18px;
+    text-align-last: left;
+    font-size: 16px;
 }
 .logo{
     width: 400px;
